@@ -58,7 +58,7 @@ pos_transfer <- function(x){
 
 
 # load data
-year = 2017
+year = 2012
 salary_path = paste0('./salary_data/salary_', year, '.csv')
 data_path = paste0('./mlb_data/data_', year, '_valid.csv')
 
@@ -167,7 +167,7 @@ View(salary_data)
 View(mlb_data)
 View(duplicated_data)
 
-write.csv(data, file = paste0('merge_data_',year,'.csv'))
+write.csv(data, file = paste0('./merge_data/merge_data_',year,'.csv'))
 
 
 
