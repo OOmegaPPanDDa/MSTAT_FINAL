@@ -48,6 +48,10 @@ pos_transfer <- function(x){
     return('DH')
   }
   
+  if(grepl('OUTFIELDERS', x)){
+    return(NA)
+  }
+  
   cat('out_of_pos_transfer: ', x, '\n')
   return(NA)
   
@@ -58,7 +62,7 @@ pos_transfer <- function(x){
 
 
 # load data
-year = 2012
+year = 2016
 salary_path = paste0('./salary_data/salary_', year, '.csv')
 data_path = paste0('./mlb_data/data_', year, '_valid.csv')
 
@@ -128,33 +132,34 @@ mlb_data_loss = setdiff(mlb_data$Player, data$Player)
 # print(mlb_data_loss)
 
 
+# handle duplicated
 # same name, team
-duplicated_data = data[duplicated(data[,c(1,3)]),]
+duplicated_data = data[duplicated(data[,c(1,3)]),c(1,3)]
+duplicated_data = duplicated_data[!duplicated(duplicated_data),]
+
+duplicated_data <- data %>%
+  filter(Player %in% duplicated_data$Player & Team %in% duplicated_data$Team) %>%
+  arrange(Player)
+
+data <- data %>%
+  filter(!(Player %in% duplicated_data$Player & Team %in% duplicated_data$Team))
 
 
-if(year == 2012){
 
-}
+# same name
+name_duplicated_data = data[duplicated(data[,c(1,2)]),c(1,2)]
+name_duplicated_data = name_duplicated_data[!duplicated(name_duplicated_data),]
 
-if(year == 2013){
+name_duplicated_data <- data %>%
+  filter(Player_Full_Name %in% name_duplicated_data$Player_Full_Name) %>%
+  arrange(Player)
 
-}
+# data <- data %>%
+#   filter(!(Player_Full_Name %in% name_duplicated_data$Player_Full_Name))
 
-if(year == 2014){
 
-}
 
-if(year == 2015){
-  data = data[c(-685),]
-}
 
-if(year == 2016){
-
-}
-
-if(year == 2017){
-
-}
 
 
 cat('salary_data_loss', length(salary_data_loss), '\n')
@@ -162,10 +167,12 @@ cat('mlb_data_loss', length(mlb_data_loss), '\n\n')
 cat('data_collect', nrow(data), '\n')
 
 
-View(data)
+
 View(salary_data)
 View(mlb_data)
 View(duplicated_data)
+View(name_duplicated_data)
+View(data)
 
 write.csv(data, file = paste0('./merge_data/merge_data_',year,'.csv'))
 
