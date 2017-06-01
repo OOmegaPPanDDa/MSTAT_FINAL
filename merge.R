@@ -168,13 +168,18 @@ cat('data_collect', nrow(data), '\n')
 
 
 
-View(salary_data)
-View(mlb_data)
-View(duplicated_data)
-View(name_duplicated_data)
-View(data)
+# View(salary_data)
+# View(mlb_data)
+# View(duplicated_data)
+# View(name_duplicated_data)
+# View(data)
 
-write.csv(data, file = paste0('./merge_data/merge_data_',year,'.csv'))
+
+names(data) = gsub('1','One',names(data))
+names(data) = gsub('2','Two',names(data))
+names(data) = gsub('3','Three',names(data))
+
+write.csv(data, file = paste0('./merge_data/merge_data_',year,'.csv'), row.names = FALSE)
 
 
 
