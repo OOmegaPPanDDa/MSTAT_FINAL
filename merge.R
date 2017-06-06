@@ -62,8 +62,8 @@ pos_transfer <- function(x){
 
 
 # load data
-year = 2016
-salary_path = paste0('./salary_data/salary_', year, '.csv')
+year = 2017
+salary_path = paste0('./salary_data/salary_', year, '_valid.csv')
 data_path = paste0('./mlb_data/data_', year, '_valid.csv')
 
 salary_data = read_csv(salary_path)

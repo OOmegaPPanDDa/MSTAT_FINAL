@@ -1,9 +1,8 @@
 library(readr)
 library(dplyr)
 library(randomForest)
-library(ggplot2)
-options(scipen=999)
 
+rank_stage = 20
 
 ############################################################
 # load data
@@ -29,6 +28,11 @@ data2012 <- merge(x = pre_year_data, y = year_data, by = c('Player_Full_Name', '
 year_record = rep(2012, nrow(data2012))
 data2012 = cbind(year_record, data2012)
 
+data2012 <- data2012 %>% 
+  mutate(Salary_rank = floor((rank(data2012$Salary, ties.method = 'last')/nrow(data2012))*rank_stage- 0.00001) + 1) %>% 
+  mutate(Salary_to_predict_rank = floor((rank(data2012$Salary_to_predict, ties.method = 'last')/nrow(data2012))*rank_stage- 0.00001) + 1)
+
+
 ############################################################
 # load data
 pre_year = 2012
@@ -53,6 +57,10 @@ data2013 <- merge(x = pre_year_data, y = year_data, by = c('Player_Full_Name', '
 year_record = rep(2013, nrow(data2013))
 data2013 = cbind(year_record, data2013)
 
+data2013 <- data2013 %>% 
+  mutate(Salary_rank = floor((rank(data2013$Salary, ties.method = 'last')/nrow(data2013))*rank_stage- 0.00001) + 1) %>% 
+  mutate(Salary_to_predict_rank = floor((rank(data2013$Salary_to_predict, ties.method = 'last')/nrow(data2013))*rank_stage- 0.00001) + 1)
+
 ############################################################
 # load data
 pre_year = 2013
@@ -76,6 +84,10 @@ data2014 <- merge(x = pre_year_data, y = year_data, by = c('Player_Full_Name', '
 
 year_record = rep(2014, nrow(data2014))
 data2014 = cbind(year_record, data2014)
+
+data2014 <- data2014 %>% 
+  mutate(Salary_rank = floor((rank(data2014$Salary, ties.method = 'last')/nrow(data2012))*rank_stage- 0.00001) + 1) %>% 
+  mutate(Salary_to_predict_rank = floor((rank(data2014$Salary_to_predict, ties.method = 'last')/nrow(data2014))*rank_stage- 0.00001) + 1)
 ############################################################
 # load data
 pre_year = 2014
@@ -99,6 +111,10 @@ data2015 <- merge(x = pre_year_data, y = year_data, by = c('Player_Full_Name', '
 
 year_record = rep(2015, nrow(data2015))
 data2015 = cbind(year_record, data2015)
+
+data2015 <- data2015 %>% 
+  mutate(Salary_rank = floor((rank(data2015$Salary, ties.method = 'last')/nrow(data2015))*rank_stage- 0.00001) + 1) %>% 
+  mutate(Salary_to_predict_rank = floor((rank(data2015$Salary_to_predict, ties.method = 'last')/nrow(data2015))*rank_stage- 0.00001) + 1)
 ############################################################
 # load data
 pre_year = 2015
@@ -124,20 +140,21 @@ data2016 <- merge(x = pre_year_data, y = year_data, by = c('Player_Full_Name', '
 year_record = rep(2016, nrow(data2016))
 data2016 = cbind(year_record, data2016)
 
+data2016 <- data2016 %>% 
+  mutate(Salary_rank = floor((rank(data2016$Salary, ties.method = 'last')/nrow(data2016))*rank_stage- 0.00001) + 1) %>% 
+  mutate(Salary_to_predict_rank = floor((rank(data2016$Salary_to_predict, ties.method = 'last')/nrow(data2016))*rank_stage- 0.00001) + 1)
+
 ############################################################
-
-
-
-
-
-
-
-
-
 
 
 bdata = do.call("rbind", list(data2012, data2013, data2014, data2015, data2016))
 
+bdata <- bdata %>%
+  mutate(Trend = Salary_to_predict_rank - Salary_rank)
+
+bdata$Trend[bdata$Trend > 0] = 'up'
+bdata$Trend[bdata$Trend == 0] = 'hold'
+bdata$Trend[bdata$Trend < 0] = 'down'
 
 # replace NA by -1
 bdata[is.na(bdata)] <- -1
@@ -152,51 +169,49 @@ bdata = subset(bdata, pos_P == 0)
 
 cat('Data Count', nrow(bdata), '\n')
 
-# fetch numeric data
-feature_data = bdata[,seq(from = 8, to = ncol(bdata))]
-feature_data = feature_data[ , -which(names(feature_data) %in% c('Salary'))]
-View(feature_data)
+# "year_record"            "Player_Full_Name"       "Team"                   "Player"                
+# "PosOne_Detailed"        "PosOne"                 "PosTwo"                 "pos_1B"                
+# "pos_2B"                 "pos_3B"                 "pos_C"                  "pos_CF"                
+# "pos_DH"                 "pos_LF"                 "pos_P"                  "pos_RF"                
+# "pos_SS"                 "G"                      "AB"                     "R"                     
+# "H"                      "TwoB"                   "ThreeB"                 "HR"                    
+# "RBI"                    "BB"                     "SO"                     "SB"                    
+# "CS"                     "AVG"                    "OBP"                    "SLG"                   
+# "OPS"                    "Salary"                 "Salary_to_predict"      "Salary_rank"           
+# "Salary_to_predict_rank" "Trend"
 
-# regression model
-print('Regression')
-f <- paste('Salary_to_predict ~', paste(colnames(feature_data)[1:ncol(feature_data)-1], collapse='+'))
-linear_regr <- lm(f, feature_data)
+data_x = bdata[,c("G", "AB", "R", "H" , "TwoB", "ThreeB", "HR", 
+             "RBI", "BB", "SO", "SB", "CS", "AVG", "OBP", "SLG",                 
+             "OPS", "Salary_rank")]
 
+data_y = bdata[,c("Trend")]
+data_y = as.factor(data_y)
 
+smp_size <- floor(0.9 * nrow(data_x))
 
-# error measurement
-evaluate = data.frame(y_true = bdata$Salary_to_predict, y_pred = predict(linear_regr))
-evaluate = cbind(bdata[,c(1,2,3,4,5,6,7)], evaluate)
-evaluate <- evaluate %>%
-  mutate(relative_error = abs(y_true - y_pred)/y_true) %>%
-  arrange(desc(relative_error))
+set.seed(46)
+train_ind <- sample(seq_len(nrow(data_x)), size = smp_size)
 
-
-mean_relative_error = mean(evaluate$relative_error)
-cat('mean_relative_error', mean_relative_error, '\n')
-
-rmse = mean((evaluate$y_true - evaluate$y_pred) ** 2) ** 0.5
-cat('rmse', rmse, '\n')
-
-
-
-
-# random forest
-print('Random Forest')
-rf = randomForest(x = feature_data[,-ncol(feature_data)], y = feature_data[,ncol(feature_data)])
-importance(rf)
+train_x = data_x[train_ind, ]
+valid_x = data_x[-train_ind, ]
+train_y = data_y[train_ind]
+valid_y = data_y[-train_ind]
 
 
-# error measurement
-evaluate = data.frame(pre_Salary = bdata$Salary, y_true = bdata$Salary_to_predict, y_pred = predict(rf))
-evaluate = cbind(bdata[,c(1,2,3,4,5,6,7)], evaluate)
-evaluate <- evaluate %>%
-  mutate(relative_error = abs(y_true - y_pred)/y_true) %>%
-  arrange(desc(relative_error))
+
+brf = randomForest(x = train_x, 
+                   y = train_y,
+                   xtest = valid_x,
+                   ytest = valid_y
+                   )
+
+print(brf)
 
 
-mean_relative_error = mean(evaluate$relative_error)
-cat('mean_relative_error', mean_relative_error, '\n')
 
-rmse = mean((evaluate$y_true - evaluate$y_pred) ** 2) ** 0.5
-cat('rmse', rmse, '\n')
+
+
+
+
+
+

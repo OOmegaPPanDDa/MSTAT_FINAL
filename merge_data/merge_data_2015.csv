@@ -1,62 +1,62 @@
 "Player","Player_Full_Name","Team","PosOne_Detailed","PosOne","PosTwo","G","AB","R","H","TwoB","ThreeB","HR","RBI","BB","SO","SB","CS","AVG","OBP","SLG","OPS","Salary"
 "Kershaw, C","Clayton Kershaw","LAD","STARTING PITCHER","P","P",31,71,2,9,2,0,0,2,2,23,0,0,"0.127","0.162","0.155",0.317,32571428
-"Greinke, Z","Zack Greinke","LAD","STARTING PITCHER","P","P",30,67,8,15,2,0,2,3,1,14,1,0,"0.224","0.232","0.343",0.575,25000000
-"Howard, R","Ryan Howard","PHI","1ST BASE","1B","1B",129,467,53,107,29,1,23,77,27,138,0,0,"0.229","0.277","0.443",0.72,25000000
+"Greinke, Z","Zack Greinke","LAD","STARTING PITCHER","P","P",30,67,8,15,2,0,2,3,1,14,1,0,"0.224","0.232","0.343",0.575,2.5e+07
+"Howard, R","Ryan Howard","PHI","1ST BASE","1B","1B",129,467,53,107,29,1,23,77,27,138,0,0,"0.229","0.277","0.443",0.72,2.5e+07
 "Hernandez, F","Felix Hernandez","SEA","STARTING PITCHER","P","P",1,3,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,24907142
 "Sabathia, C","C.C. Sabathia","NYY","STARTING PITCHER","P","P",1,3,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,24285714
 "Fielder, P","Prince Fielder","TEX","DESIGNATED HITTER","DH","DH",158,613,78,187,28,0,23,98,64,88,0,0,"0.305","0.378","0.463",0.841,24050000
 "Pujols, A","Albert Pujols","LAA","DESIGNATED HITTER","DH","DH",157,602,85,147,22,0,40,95,50,72,5,3,"0.244","0.307","0.48",0.787,24050000
-"Cano, R","Robinson Cano","SEA","2ND BASE","2B","2B",156,624,82,179,34,1,21,79,43,107,2,6,"0.287","0.334","0.446",0.779,24000000
+"Cano, R","Robinson Cano","SEA","2ND BASE","2B","2B",156,624,82,179,34,1,21,79,43,107,2,6,"0.287","0.334","0.446",0.779,2.4e+07
 "Teixeira, M","Mark Teixeira","NYY","1ST BASE","1B","1B",111,392,57,100,22,0,31,79,59,85,2,0,"0.255","0.357","0.548",0.906,23125000
-"Mauer, J","Joe Mauer","MIN","1ST BASE","1B","1B",158,592,69,157,34,2,10,66,67,112,2,1,"0.265","0.338","0.38",0.718,23000000
-"Cabrera, M","Miguel Cabrera","DET","1ST BASE","1B","1B",119,429,64,145,28,1,18,76,77,82,1,1,"0.338","0.44","0.534",0.974,22000000
-"Rodriguez, A","Alex Rodriguez","NYY","DESIGNATED HITTER","DH","DH",151,523,83,131,22,1,33,86,84,145,4,0,"0.25","0.356","0.486",0.842,22000000
-"Tanaka, M","Masahiro Tanaka","NYY","STARTING PITCHER","P","P",4,7,0,0,0,0,0,0,1,2,0,0,"0","0.125","0",0.125,22000000
+"Mauer, J","Joe Mauer","MIN","1ST BASE","1B","1B",158,592,69,157,34,2,10,66,67,112,2,1,"0.265","0.338","0.38",0.718,2.3e+07
+"Cabrera, M","Miguel Cabrera","DET","1ST BASE","1B","1B",119,429,64,145,28,1,18,76,77,82,1,1,"0.338","0.44","0.534",0.974,2.2e+07
+"Rodriguez, A","Alex Rodriguez","NYY","DESIGNATED HITTER","DH","DH",151,523,83,131,22,1,33,86,84,145,4,0,"0.25","0.356","0.486",0.842,2.2e+07
+"Tanaka, M","Masahiro Tanaka","NYY","STARTING PITCHER","P","P",4,7,0,0,0,0,0,0,1,2,0,0,"0","0.125","0",0.125,2.2e+07
 "Gonzalez, A","Adrian Gonzalez","LAD","1ST BASE","1B","1B",156,571,76,157,33,0,28,90,62,107,0,1,"0.275","0.35","0.48",0.83,21857142
 "Werth, J","Jayson Werth","WSH","LEFT FIELD","LF","LF",88,331,51,73,16,1,12,42,38,84,0,1,"0.221","0.302","0.384",0.685,21571428
 "Crawford, C","Carl Crawford","LAD","LEFT FIELD","LF","LF",69,181,19,48,9,2,4,16,10,41,10,2,"0.265","0.304","0.403",0.707,21357142
 "Kemp, M","Matt Kemp","SD","RIGHT FIELD","RF","RF",154,596,80,158,31,3,23,100,39,147,12,2,"0.265","0.312","0.443",0.755,21250000
 "Ellsbury, J","Jacoby Ellsbury","NYY","CENTER FIELD","CF","CF",111,452,66,116,15,2,7,33,35,86,21,9,"0.257","0.318","0.345",0.663,21142857
 "Cain, M","Matt Cain","SF","STARTING PITCHER","P","P",12,16,0,0,0,0,0,1,0,9,0,0,"0","0","0",0,20833333
-"Buehrle, M","Mark Buehrle","TOR","STARTING PITCHER","P","P",4,7,0,1,0,0,0,0,1,3,0,0,"0.143","0.25","0.143",0.393,20000000
-"Lester, J","Jon Lester","CHC","STARTING PITCHER","P","P",30,62,6,4,0,0,0,0,3,30,0,0,"0.065","0.108","0.065",0.172,20000000
-"Wright, D","David Wright","NYM","3RD BASE","3B","3B",38,152,24,44,7,0,5,17,22,36,2,1,"0.289","0.379","0.434",0.814,20000000
+"Buehrle, M","Mark Buehrle","TOR","STARTING PITCHER","P","P",4,7,0,1,0,0,0,0,1,3,0,0,"0.143","0.25","0.143",0.393,2e+07
+"Lester, J","Jon Lester","CHC","STARTING PITCHER","P","P",30,62,6,4,0,0,0,0,3,30,0,0,"0.065","0.108","0.065",0.172,2e+07
+"Wright, D","David Wright","NYM","3RD BASE","3B","3B",38,152,24,44,7,0,5,17,22,36,2,1,"0.289","0.379","0.434",0.814,2e+07
 "Ramirez, H","Hanley Ramirez","BOS","DESIGNATED HITTER","DH","1B",105,401,59,100,12,1,19,53,21,71,6,3,"0.249","0.291","0.426",0.717,19750000
 "Wainwright, A","Adam Wainwright","STL","STARTING PITCHER","P","P",7,10,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,19500000
 "Pence, H","Hunter Pence","SF","RIGHT FIELD","RF","RF",52,207,30,57,13,1,9,40,16,48,4,1,"0.275","0.327","0.478",0.806,18500000
 "Wilson, C","C.J. Wilson","LAA","STARTING PITCHER","P","P",2,6,0,2,0,0,0,0,0,1,0,0,"0.333","0.333","0.333",0.667,18500000
 "Weaver, J","Jered Weaver","LAA","STARTING PITCHER","P","P",1,2,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,18200000
-"Ethier, A","Andre Ethier","LAD","CENTER FIELD","CF","RF",142,395,54,116,20,7,14,53,43,75,2,3,"0.294","0.366","0.486",0.852,18000000
-"Lincecum, T","Tim Lincecum","SF","STARTING PITCHER","P","P",16,21,0,3,1,0,0,0,2,10,0,0,"0.143","0.217","0.19",0.408,18000000
+"Ethier, A","Andre Ethier","LAD","CENTER FIELD","CF","RF",142,395,54,116,20,7,14,53,43,75,2,3,"0.294","0.366","0.486",0.852,1.8e+07
+"Lincecum, T","Tim Lincecum","SF","STARTING PITCHER","P","P",16,21,0,3,1,0,0,0,2,10,0,0,"0.143","0.217","0.19",0.408,1.8e+07
 "Sandoval, P","Pablo Sandoval","BOS","3RD BASE","3B","3B",126,470,43,115,25,1,10,47,25,73,0,0,"0.245","0.292","0.366",0.658,17600000
 "Posey, B","Buster Posey","SF","CATCHER","C","C",150,557,74,177,28,0,19,95,56,52,2,0,"0.318","0.379","0.47",0.849,17352777
 "Scherzer, M","Max Scherzer","WSH","STARTING PITCHER","P","P",32,69,4,15,0,0,0,0,2,23,0,0,"0.217","0.239","0.217",0.457,17317857
 "Holliday, M","Matt Holliday","STL","DESIGNATED HITTER","DH","LF",73,229,24,64,16,1,4,35,39,49,2,1,"0.279","0.394","0.41",0.804,17025000
-"McCann, B","Brian McCann","NYY","CATCHER","C","C",135,465,68,108,15,1,26,94,52,97,0,0,"0.232","0.32","0.437",0.756,17000000
+"McCann, B","Brian McCann","NYY","CATCHER","C","C",135,465,68,108,15,1,26,94,52,97,0,0,"0.232","0.32","0.437",0.756,1.7e+07
 "Sanchez, A","Anibal Sanchez","DET","RELIEF PITCHER","P","P",2,4,0,0,0,0,0,0,0,4,0,0,"0","0","0",0,16800000
 "Zimmermann, J","Jordan Zimmermann","WSH","STARTING PITCHER","P","P",31,63,4,10,1,0,0,3,0,18,0,0,"0.159","0.159","0.175",0.333,16500000
 "Gonzalez, C","Carlos Gonzalez","COL","RIGHT FIELD","RF","RF",153,554,87,150,25,2,40,97,46,133,2,0,"0.271","0.325","0.54",0.864,16478571
-"Beltre, A","Adrian Beltre","TEX","3RD BASE","3B","3B",143,567,83,163,32,4,18,83,41,65,1,0,"0.287","0.334","0.453",0.788,16000000
-"Granderson, C","Curtis Granderson","NYM","RIGHT FIELD","RF","CF",157,580,98,150,33,2,26,70,91,151,11,6,"0.259","0.364","0.457",0.821,16000000
-"Kinsler, I","Ian Kinsler","DET","2ND BASE","2B","2B",154,624,94,185,35,7,11,73,43,80,10,6,"0.296","0.342","0.428",0.77,16000000
-"Ortiz, D","David Ortiz","BOS","DESIGNATED HITTER","DH","DH",146,528,73,144,37,0,37,108,77,95,0,1,"0.273","0.36","0.553",0.913,16000000
+"Beltre, A","Adrian Beltre","TEX","3RD BASE","3B","3B",143,567,83,163,32,4,18,83,41,65,1,0,"0.287","0.334","0.453",0.788,1.6e+07
+"Granderson, C","Curtis Granderson","NYM","RIGHT FIELD","RF","CF",157,580,98,150,33,2,26,70,91,151,11,6,"0.259","0.364","0.457",0.821,1.6e+07
+"Kinsler, I","Ian Kinsler","DET","2ND BASE","2B","2B",154,624,94,185,35,7,11,73,43,80,10,6,"0.296","0.342","0.428",0.77,1.6e+07
+"Ortiz, D","David Ortiz","BOS","DESIGNATED HITTER","DH","DH",146,528,73,144,37,0,37,108,77,95,0,1,"0.273","0.36","0.553",0.913,1.6e+07
 "Molina, Y","Yadier Molina","STL","CATCHER","C","C",136,488,34,132,23,2,4,61,32,59,3,1,"0.27","0.31","0.35",0.66,15300000
 "Andrus, E","Elvis Andrus","TEX","SHORTSTOP","SS","SS",160,596,69,154,34,2,7,62,46,78,25,9,"0.258","0.309","0.357",0.667,15250000
-"Beltran, C","Carlos Beltran","NYY","DESIGNATED HITTER","DH","RF",133,478,57,132,34,1,19,67,45,85,0,0,"0.276","0.337","0.471",0.808,15000000
-"Peralta, J","Jhonny Peralta","STL","3RD BASE","3B","SS",155,579,64,159,26,1,17,71,50,111,1,4,"0.275","0.334","0.411",0.745,15000000
+"Beltran, C","Carlos Beltran","NYY","DESIGNATED HITTER","DH","RF",133,478,57,132,34,1,19,67,45,85,0,0,"0.276","0.337","0.471",0.808,1.5e+07
+"Peralta, J","Jhonny Peralta","STL","3RD BASE","3B","SS",155,579,64,159,26,1,17,71,50,111,1,4,"0.275","0.334","0.411",0.745,1.5e+07
 "Upton, J","Justin Upton","SD","LEFT FIELD","LF","LF",150,542,85,136,26,3,26,81,68,159,19,5,"0.251","0.336","0.454",0.79,14708333
 "Cruz, N","Nelson Cruz","SEA","DESIGNATED HITTER","DH","DH",152,590,90,178,22,1,44,93,59,164,3,2,"0.302","0.369","0.566",0.936,14375000
-"Bautista, J","Jose Bautista","TOR","RIGHT FIELD","RF","RF",153,543,108,136,29,3,40,114,110,106,8,2,"0.25","0.377","0.536",0.913,14000000
-"Choo, S","Shin-Soo Choo","TEX","DESIGNATED HITTER","DH","RF",149,555,94,153,32,3,22,82,76,147,4,2,"0.276","0.375","0.463",0.838,14000000
-"Gallardo, Y","Yovani Gallardo","TEX","STARTING PITCHER","P","P",2,4,0,2,1,0,0,0,0,1,0,0,"0.5","0.5","0.75",1.25,14000000
-"Gordon, A","Alex Gordon","KC","LEFT FIELD","LF","LF",104,354,40,96,18,0,13,48,49,92,2,5,"0.271","0.377","0.432",0.809,14000000
-"Headley, C","Chase Headley","NYY","3RD BASE","3B","3B",156,580,74,150,29,1,11,62,51,135,0,2,"0.259","0.324","0.369",0.693,14000000
-"Martinez, V","Victor Martinez","DET","DESIGNATED HITTER","DH","DH",120,440,39,108,20,0,11,64,31,52,0,0,"0.245","0.301","0.366",0.667,14000000
-"Votto, J","Joey Votto","CIN","1ST BASE","1B","1B",158,545,95,171,33,2,29,80,143,135,11,3,"0.314","0.459","0.541",1,14000000
-"Zimmerman, R","Ryan Zimmerman","WSH","1ST BASE","1B","1B",95,346,43,86,25,1,16,73,33,79,1,0,"0.249","0.308","0.465",0.773,14000000
+"Bautista, J","Jose Bautista","TOR","RIGHT FIELD","RF","RF",153,543,108,136,29,3,40,114,110,106,8,2,"0.25","0.377","0.536",0.913,1.4e+07
+"Choo, S","Shin-Soo Choo","TEX","DESIGNATED HITTER","DH","RF",149,555,94,153,32,3,22,82,76,147,4,2,"0.276","0.375","0.463",0.838,1.4e+07
+"Gallardo, Y","Yovani Gallardo","TEX","STARTING PITCHER","P","P",2,4,0,2,1,0,0,0,0,1,0,0,"0.5","0.5","0.75",1.25,1.4e+07
+"Gordon, A","Alex Gordon","KC","LEFT FIELD","LF","LF",104,354,40,96,18,0,13,48,49,92,2,5,"0.271","0.377","0.432",0.809,1.4e+07
+"Headley, C","Chase Headley","NYY","3RD BASE","3B","3B",156,580,74,150,29,1,11,62,51,135,0,2,"0.259","0.324","0.369",0.693,1.4e+07
+"Martinez, V","Victor Martinez","DET","DESIGNATED HITTER","DH","DH",120,440,39,108,20,0,11,64,31,52,0,0,"0.245","0.301","0.366",0.667,1.4e+07
+"Votto, J","Joey Votto","CIN","1ST BASE","1B","1B",158,545,95,171,33,2,29,80,143,135,11,3,"0.314","0.459","0.541",1,1.4e+07
+"Zimmerman, R","Ryan Zimmerman","WSH","1ST BASE","1B","1B",95,346,43,86,25,1,16,73,33,79,1,0,"0.249","0.308","0.465",0.773,1.4e+07
 "Jones, A","Adam Jones","BAL","CENTER FIELD","CF","CF",137,546,74,147,25,3,27,82,24,102,3,1,"0.269","0.308","0.474",0.782,13408333
-"Braun, R","Ryan Braun","MIL","LEFT FIELD","LF","LF",140,506,87,144,27,3,25,84,54,115,24,4,"0.285","0.356","0.498",0.854,13000000
-"Papelbon, J","Jonathan Papelbon","WSH","RELIEF PITCHER","P","P",58,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,13000000
+"Braun, R","Ryan Braun","MIL","LEFT FIELD","LF","LF",140,506,87,144,27,3,25,84,54,115,24,4,"0.285","0.356","0.498",0.854,1.3e+07
+"Papelbon, J","Jonathan Papelbon","WSH","RELIEF PITCHER","P","P",58,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,1.3e+07
 "Jimenez, U","Ubaldo Jimenez","BAL","STARTING PITCHER","P","P",4,8,0,2,0,0,0,2,0,4,0,0,"0.25","0.25","0.25",0.5,12650000
 "Pedroia, D","Dustin Pedroia","BOS","2ND BASE","2B","2B",93,381,46,111,19,1,12,42,38,51,2,2,"0.291","0.356","0.441",0.797,12625000
 "Gardner, B","Brett Gardner","NYY","LEFT FIELD","LF","LF",151,571,94,148,26,3,16,66,68,135,20,5,"0.259","0.343","0.399",0.742,12500000
@@ -66,34 +66,34 @@
 "Anderson, B","Brett Anderson","LAD","STARTING PITCHER","P","P",29,47,1,4,1,0,0,3,5,32,0,0,"0.085","0.173","0.106",0.279,12400000
 "Buchholz, C","Clay Buchholz","BOS","STARTING PITCHER","P","P",2,6,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,12250000
 "Bruce, J","Jay Bruce","CIN","RIGHT FIELD","RF","RF",157,580,72,131,35,4,26,87,58,145,9,5,"0.226","0.294","0.434",0.729,12041666
-"Davis, C","Chris Davis","BAL","1ST BASE","1B","1B",160,573,100,150,31,0,47,117,84,208,2,3,"0.262","0.361","0.562",0.923,12000000
-"Dickey, R","R.A. Dickey","TOR","STARTING PITCHER","P","P",2,3,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,12000000
-"Hill, A","Aaron Hill","ARI","3RD BASE","3B","3B",116,313,32,72,18,0,6,39,31,54,7,2,"0.23","0.295","0.345",0.64,12000000
-"Hudson, T","Tim Hudson","SF","STARTING PITCHER","P","P",22,38,3,7,2,0,1,1,1,11,0,0,"0.184","0.205","0.316",0.521,12000000
-"Montero, M","Miguel Montero","CHC","CATCHER","C","C",113,347,36,86,11,0,15,53,49,103,1,1,"0.248","0.345","0.409",0.754,12000000
-"Nolasco, R","Ricky Nolasco","MIN","STARTING PITCHER","P","P",1,3,0,0,0,0,0,0,0,3,0,0,"0","0","0",0,12000000
-"Phillips, B","Brandon Phillips","CIN","2ND BASE","2B","2B",148,588,69,173,19,2,12,70,27,68,23,3,"0.294","0.328","0.395",0.723,12000000
+"Davis, C","Chris Davis","BAL","1ST BASE","1B","1B",160,573,100,150,31,0,47,117,84,208,2,3,"0.262","0.361","0.562",0.923,1.2e+07
+"Dickey, R","R.A. Dickey","TOR","STARTING PITCHER","P","P",2,3,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,1.2e+07
+"Hill, A","Aaron Hill","ARI","3RD BASE","3B","3B",116,313,32,72,18,0,6,39,31,54,7,2,"0.23","0.295","0.345",0.64,1.2e+07
+"Hudson, T","Tim Hudson","SF","STARTING PITCHER","P","P",22,38,3,7,2,0,1,1,1,11,0,0,"0.184","0.205","0.316",0.521,1.2e+07
+"Montero, M","Miguel Montero","CHC","CATCHER","C","C",113,347,36,86,11,0,15,53,49,103,1,1,"0.248","0.345","0.409",0.754,1.2e+07
+"Nolasco, R","Ricky Nolasco","MIN","STARTING PITCHER","P","P",1,3,0,0,0,0,0,0,0,3,0,0,"0","0","0",0,1.2e+07
+"Phillips, B","Brandon Phillips","CIN","2ND BASE","2B","2B",148,588,69,173,19,2,12,70,27,68,23,3,"0.294","0.328","0.395",0.723,1.2e+07
 "Liriano, F","Francisco Liriano","PIT","STARTING PITCHER","P","P",29,65,4,11,2,0,1,7,0,28,0,0,"0.169","0.169","0.246",0.415,11666666
 "Hardy, J","J.J. Hardy","BAL","SHORTSTOP","SS","SS",114,411,45,90,14,0,8,37,20,88,0,0,"0.219","0.253","0.311",0.564,11500000
 "Fister, D","Doug Fister","WSH","STARTING PITCHER","P","P",29,31,2,7,1,0,0,0,2,15,0,0,"0.226","0.273","0.258",0.531,11400000
 "Castillo, R","Rusney Castillo","BOS","LEFT FIELD","LF","LF",80,273,35,69,10,2,5,29,13,54,4,5,"0.253","0.288","0.359",0.647,11271428
 "Gonzalez, G","Gio Gonzalez","WSH","STARTING PITCHER","P","P",27,43,1,4,1,0,0,2,1,18,0,0,"0.093","0.152","0.116",0.268,11100000
-"Colon, B","Bartolo Colon","NYM","STARTING PITCHER","P","P",31,58,2,8,1,0,0,4,0,24,0,0,"0.138","0.15","0.155",0.305,11000000
-"Crisp, C","Coco Crisp","OAK","CENTER FIELD","CF","LF",44,126,11,22,6,0,0,6,13,25,2,0,"0.175","0.252","0.222",0.474,11000000
-"Desmond, I","Ian Desmond","WSH","1ST BASE","1B","SS",156,583,69,136,27,2,19,62,45,187,13,5,"0.233","0.29","0.384",0.674,11000000
-"Lohse, K","Kyle Lohse","MIL","STARTING PITCHER","P","P",38,39,3,9,1,0,0,1,0,10,0,0,"0.231","0.231","0.256",0.487,11000000
-"Longoria, E","Evan Longoria","TB","3RD BASE","3B","3B",160,604,74,163,35,1,21,73,51,132,3,1,"0.27","0.328","0.435",0.764,11000000
-"Markakis, N","Nick Markakis","ATL","RIGHT FIELD","RF","RF",156,612,73,181,38,1,3,53,70,83,2,1,"0.296","0.37","0.376",0.746,11000000
-"Prado, M","Martin Prado","MIA","3RD BASE","3B","3B",129,500,52,144,22,2,9,63,37,68,1,0,"0.288","0.338","0.394",0.732,11000000
-"Rollins, J","Jimmy Rollins","LAD","SHORTSTOP","SS","SS",144,517,71,116,24,3,13,41,44,86,12,8,"0.224","0.285","0.358",0.643,11000000
+"Colon, B","Bartolo Colon","NYM","STARTING PITCHER","P","P",31,58,2,8,1,0,0,4,0,24,0,0,"0.138","0.15","0.155",0.305,1.1e+07
+"Crisp, C","Coco Crisp","OAK","CENTER FIELD","CF","LF",44,126,11,22,6,0,0,6,13,25,2,0,"0.175","0.252","0.222",0.474,1.1e+07
+"Desmond, I","Ian Desmond","WSH","1ST BASE","1B","SS",156,583,69,136,27,2,19,62,45,187,13,5,"0.233","0.29","0.384",0.674,1.1e+07
+"Lohse, K","Kyle Lohse","MIL","STARTING PITCHER","P","P",38,39,3,9,1,0,0,1,0,10,0,0,"0.231","0.231","0.256",0.487,1.1e+07
+"Longoria, E","Evan Longoria","TB","3RD BASE","3B","3B",160,604,74,163,35,1,21,73,51,132,3,1,"0.27","0.328","0.435",0.764,1.1e+07
+"Markakis, N","Nick Markakis","ATL","RIGHT FIELD","RF","RF",156,612,73,181,38,1,3,53,70,83,2,1,"0.296","0.37","0.376",0.746,1.1e+07
+"Prado, M","Martin Prado","MIA","3RD BASE","3B","3B",129,500,52,144,22,2,9,63,37,68,1,0,"0.288","0.338","0.394",0.732,1.1e+07
+"Rollins, J","Jimmy Rollins","LAD","SHORTSTOP","SS","SS",144,517,71,116,24,3,13,41,44,86,12,8,"0.224","0.285","0.358",0.643,1.1e+07
 "Cespedes, Y","Yoenis Cespedes","NYM","CENTER FIELD","CF","LF",159,633,101,184,42,6,35,105,33,141,7,5,"0.291","0.328","0.542",0.87,10500000
 "Hunter, T","Torii Hunter","MIN","RIGHT FIELD","RF","RF",139,521,67,125,22,0,22,81,35,105,2,5,"0.24","0.293","0.409",0.702,10500000
 "McCutchen, A","Andrew McCutchen","PIT","RIGHT FIELD","RF","RF",157,566,91,165,36,3,23,96,98,133,11,5,"0.292","0.401","0.488",0.889,10258333
 "Pagan, A","Angel Pagan","SF","LEFT FIELD","LF","LF",133,512,55,134,21,3,3,37,32,93,12,4,"0.262","0.303","0.332",0.635,10250000
-"Bailey, H","Homer Bailey","CIN","STARTING PITCHER","P","P",2,4,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,10000000
-"Encarnacion, E","Edwin Encarnacion","TOR","1ST BASE","1B","DH",146,528,94,146,31,0,39,111,77,98,3,2,"0.277","0.372","0.557",0.929,10000000
-"Feldman, S","Scott Feldman","HOU","STARTING PITCHER","P","P",1,2,0,1,0,0,0,0,0,1,0,0,"0.5","0.5","0.5",1,10000000
-"Shields, J","James Shields","SD","STARTING PITCHER","P","P",34,68,7,9,2,0,0,2,1,28,0,0,"0.132","0.145","0.162",0.307,10000000
+"Bailey, H","Homer Bailey","CIN","STARTING PITCHER","P","P",2,4,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,1e+07
+"Encarnacion, E","Edwin Encarnacion","TOR","1ST BASE","1B","DH",146,528,94,146,31,0,39,111,77,98,3,2,"0.277","0.372","0.557",0.929,1e+07
+"Feldman, S","Scott Feldman","HOU","STARTING PITCHER","P","P",1,2,0,1,0,0,0,0,0,1,0,0,"0.5","0.5","0.5",1,1e+07
+"Shields, J","James Shields","SD","STARTING PITCHER","P","P",34,68,7,9,2,0,0,2,1,28,0,0,"0.132","0.145","0.162",0.307,1e+07
 "Kendrick, H","Howie Kendrick","LAD","LEFT FIELD","LF","2B",117,464,64,137,22,2,9,54,27,82,6,2,"0.295","0.336","0.409",0.746,9850000
 "Kennedy, I","Ian Kennedy","SD","STARTING PITCHER","P","P",27,42,3,4,3,0,0,0,0,23,0,0,"0.095","0.095","0.167",0.262,9850000
 "Fowler, D","Dexter Fowler","CHC","CENTER FIELD","CF","CF",156,596,102,149,29,8,17,46,84,154,20,7,"0.25","0.346","0.411",0.757,9500000
@@ -101,12 +101,12 @@
 "Garcia, J","Jaime Garcia","STL","STARTING PITCHER","P","P",19,41,1,4,0,0,0,1,2,15,0,0,"0.098","0.14","0.098",0.237,9375000
 "Kimbrel, C","Craig Kimbrel","SD","RELIEF PITCHER","P","P",54,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,9250000
 "Hughes, P","Phil Hughes","MIN","STARTING PITCHER","P","P",1,3,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,9200000
-"Guthrie, J","Jeremy Guthrie","KC","STARTING PITCHER","P","P",2,4,0,1,0,0,0,0,0,0,0,0,"0.25","0.25","0.25",0.5,9000000
-"Hammel, J","Jason Hammel","CHC","STARTING PITCHER","P","P",31,65,6,11,1,0,0,4,1,18,0,0,"0.169","0.179","0.185",0.364,9000000
-"Miller, A","Andrew Miller","NYY","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,9000000
-"Peavy, J","Jake Peavy","SF","RELIEF PITCHER","P","P",19,36,5,7,2,0,1,3,1,17,0,0,"0.194","0.216","0.333",0.55,9000000
-"Span, D","Denard Span","WSH","CENTER FIELD","CF","CF",61,246,38,74,17,0,5,22,25,26,11,0,"0.301","0.365","0.431",0.796,9000000
-"Uehara, K","Koji Uehara","BOS","RELIEF PITCHER","P","P",2,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,9000000
+"Guthrie, J","Jeremy Guthrie","KC","STARTING PITCHER","P","P",2,4,0,1,0,0,0,0,0,0,0,0,"0.25","0.25","0.25",0.5,9e+06
+"Hammel, J","Jason Hammel","CHC","STARTING PITCHER","P","P",31,65,6,11,1,0,0,4,1,18,0,0,"0.169","0.179","0.185",0.364,9e+06
+"Miller, A","Andrew Miller","NYY","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,9e+06
+"Peavy, J","Jake Peavy","SF","RELIEF PITCHER","P","P",19,36,5,7,2,0,1,3,1,17,0,0,"0.194","0.216","0.333",0.55,9e+06
+"Span, D","Denard Span","WSH","CENTER FIELD","CF","CF",61,246,38,74,17,0,5,22,25,26,11,0,"0.301","0.365","0.431",0.796,9e+06
+"Uehara, K","Koji Uehara","BOS","RELIEF PITCHER","P","P",2,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,9e+06
 "Freeman, F","Freddie Freeman","ATL","1ST BASE","1B","1B",118,416,62,115,27,0,18,66,56,98,3,1,"0.276","0.37","0.471",0.841,8859375
 "Aybar, E","Erick Aybar","LAA","SHORTSTOP","SS","SS",156,597,74,161,30,1,3,44,25,73,15,6,"0.27","0.301","0.338",0.639,8750000
 "Loney, J","James Loney","TB","1ST BASE","1B","1B",104,361,25,101,16,0,4,32,23,34,2,4,"0.28","0.322","0.357",0.68,8666666
@@ -119,13 +119,13 @@
 "Reyes, J","Jose Reyes","COL","3RD BASE","3B","SS",116,481,57,132,25,2,7,53,26,62,24,6,"0.274","0.31","0.378",0.688,8295081
 "Holland, G","Greg Holland","KC","RELIEF PITCHER","P","P",3,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,8250000
 "Chapman, A","Aroldis Chapman","CIN","RELIEF PITCHER","P","P",62,1,1,0,0,0,0,0,0,0,0,0,"0","0","0",0,8050000
-"Benoit, J","Joaquin Benoit","SD","RELIEF PITCHER","P","P",62,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,8000000
-"Byrd, M","Marlon Byrd","SF","LEFT FIELD","LF","LF",135,506,58,125,25,5,23,73,29,145,2,1,"0.247","0.29","0.453",0.743,8000000
-"Lowrie, J","Jed Lowrie","HOU","2ND BASE","2B","3B",69,230,35,51,14,0,9,30,28,43,1,0,"0.222","0.312","0.4",0.712,8000000
-"Morton, C","Charlie Morton","PIT","STARTING PITCHER","P","P",21,36,0,1,0,0,0,1,1,18,0,0,"0.028","0.054","0.028",0.082,8000000
-"Murphy, D","Daniel Murphy","NYM","2ND BASE","2B","2B",130,499,56,140,38,2,14,73,31,38,2,2,"0.281","0.322","0.449",0.77,8000000
-"Rasmus, C","Colby Rasmus","HOU","LEFT FIELD","LF","LF",137,432,67,103,23,2,25,61,47,154,2,1,"0.238","0.314","0.475",0.789,8000000
-"Walker, N","Neil Walker","PIT","2ND BASE","2B","2B",151,543,69,146,32,3,16,71,44,110,4,1,"0.269","0.328","0.427",0.756,8000000
+"Benoit, J","Joaquin Benoit","SD","RELIEF PITCHER","P","P",62,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,8e+06
+"Byrd, M","Marlon Byrd","SF","LEFT FIELD","LF","LF",135,506,58,125,25,5,23,73,29,145,2,1,"0.247","0.29","0.453",0.743,8e+06
+"Lowrie, J","Jed Lowrie","HOU","2ND BASE","2B","3B",69,230,35,51,14,0,9,30,28,43,1,0,"0.222","0.312","0.4",0.712,8e+06
+"Morton, C","Charlie Morton","PIT","STARTING PITCHER","P","P",21,36,0,1,0,0,0,1,1,18,0,0,"0.028","0.054","0.028",0.082,8e+06
+"Murphy, D","Daniel Murphy","NYM","2ND BASE","2B","2B",130,499,56,140,38,2,14,73,31,38,2,2,"0.281","0.322","0.449",0.77,8e+06
+"Rasmus, C","Colby Rasmus","HOU","LEFT FIELD","LF","LF",137,432,67,103,23,2,25,61,47,154,2,1,"0.238","0.314","0.475",0.789,8e+06
+"Walker, N","Neil Walker","PIT","2ND BASE","2B","2B",151,543,69,146,32,3,16,71,44,110,4,1,"0.269","0.328","0.427",0.756,8e+06
 "Tulowitzki, T","Troy Tulowitzki","TOR","SHORTSTOP","SS","SS",128,486,77,136,27,0,17,70,38,114,1,0,"0.28","0.337","0.44",0.777,7540983
 "Cabrera, A","Asdrubal Cabrera","TB","SHORTSTOP","SS","SS",143,505,66,134,28,5,15,58,36,107,6,3,"0.265","0.315","0.43",0.744,7500000
 "Infante, O","Omar Infante","KC","2ND BASE","2B","2B",124,440,39,97,23,7,2,44,9,69,2,2,"0.22","0.234","0.318",0.552,7500000
@@ -139,11 +139,11 @@
 "Maybin, C","Cameron Maybin","ATL","CENTER FIELD","CF","CF",141,505,65,135,18,2,10,59,45,102,23,6,"0.267","0.327","0.37",0.697,7100000
 "Niese, J","Jonathan Niese","NYM","RELIEF PITCHER","P","P",31,52,5,9,1,0,0,4,5,18,0,0,"0.173","0.246","0.192",0.438,7050000
 "Davis, W","Wade Davis","KC","RELIEF PITCHER","P","P",7,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,7025000
-"Bumgarner, M","Madison Bumgarner","SF","STARTING PITCHER","P","P",34,77,9,19,2,0,5,9,3,27,0,0,"0.247","0.275","0.468",0.743,7000000
-"Iwakuma, H","Hisashi Iwakuma","SEA","STARTING PITCHER","P","P",2,2,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,7000000
-"Lynn, L","Lance Lynn","STL","STARTING PITCHER","P","P",28,50,3,8,2,0,0,1,0,26,0,0,"0.16","0.16","0.2",0.36,7000000
-"Martin, R","Russell Martin","TOR","CATCHER","C","C",129,441,76,106,23,2,23,77,53,106,4,5,"0.24","0.329","0.458",0.787,7000000
-"Street, H","Huston Street","LAA","RELIEF PITCHER","P","P",4,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,7000000
+"Bumgarner, M","Madison Bumgarner","SF","STARTING PITCHER","P","P",34,77,9,19,2,0,5,9,3,27,0,0,"0.247","0.275","0.468",0.743,7e+06
+"Iwakuma, H","Hisashi Iwakuma","SEA","STARTING PITCHER","P","P",2,2,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,7e+06
+"Lynn, L","Lance Lynn","STL","STARTING PITCHER","P","P",28,50,3,8,2,0,0,1,0,26,0,0,"0.16","0.16","0.2",0.36,7e+06
+"Martin, R","Russell Martin","TOR","CATCHER","C","C",129,441,76,106,23,2,23,77,53,106,4,5,"0.24","0.329","0.458",0.787,7e+06
+"Street, H","Huston Street","LAA","RELIEF PITCHER","P","P",4,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,7e+06
 "Castro, S","Starlin Castro","CHC","2ND BASE","2B","SS",151,547,52,145,23,2,11,69,21,91,5,5,"0.265","0.296","0.375",0.671,6857142
 "Butler, B","Billy Butler","OAK","DESIGNATED HITTER","DH","DH",151,538,63,135,28,1,15,65,52,101,0,0,"0.251","0.323","0.39",0.713,6666666
 "Stanton, G","Giancarlo Stanton","MIA","RIGHT FIELD","RF","RF",74,279,47,74,12,1,27,67,34,95,4,2,"0.265","0.346","0.606",0.952,6550000
@@ -153,10 +153,10 @@
 "Santana, C","Carlos Santana","CLE","DESIGNATED HITTER","DH","1B",154,550,72,127,29,2,19,85,108,122,11,3,"0.231","0.357","0.395",0.752,6200000
 "Trout, M","Mike Trout","LAA","CENTER FIELD","CF","CF",159,575,104,172,32,6,41,90,92,158,11,7,"0.299","0.402","0.59",0.991,6083333
 "Gregerson, L","Luke Gregerson","HOU","RELIEF PITCHER","P","P",3,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,6050000
-"Affeldt, J","Jeremy Affeldt","SF","RELIEF PITCHER","P","P",47,2,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,6000000
-"Romo, S","Sergio Romo","SF","RELIEF PITCHER","P","P",67,2,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,6000000
-"Smith, S","Seth Smith","SEA","RIGHT FIELD","RF","RF",136,395,54,98,31,5,12,42,47,99,0,0,"0.248","0.33","0.443",0.773,6000000
-"Suzuki, K","Kurt Suzuki","MIN","CATCHER","C","C",131,433,36,104,17,0,5,50,29,59,0,0,"0.24","0.296","0.314",0.61,6000000
+"Affeldt, J","Jeremy Affeldt","SF","RELIEF PITCHER","P","P",47,2,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,6e+06
+"Romo, S","Sergio Romo","SF","RELIEF PITCHER","P","P",67,2,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,6e+06
+"Smith, S","Seth Smith","SEA","RIGHT FIELD","RF","RF",136,395,54,98,31,5,12,42,47,99,0,0,"0.248","0.33","0.443",0.773,6e+06
+"Suzuki, K","Kurt Suzuki","MIN","CATCHER","C","C",131,433,36,104,17,0,5,50,29,59,0,0,"0.24","0.296","0.314",0.61,6e+06
 "Brantley, M","Michael Brantley","CLE","LEFT FIELD","LF","LF",137,529,68,164,45,0,15,84,60,51,15,1,"0.31","0.379","0.48",0.859,5875000
 "Alvarez, P","Pedro Alvarez","PIT","DESIGNATED HITTER","DH","1B",150,437,60,106,18,0,27,77,48,131,2,0,"0.243","0.318","0.469",0.787,5750000
 "Hosmer, E","Eric Hosmer","KC","1ST BASE","1B","1B",158,599,98,178,33,5,18,93,61,108,7,3,"0.297","0.363","0.459",0.822,5700000
@@ -177,14 +177,14 @@
 "Rizzo, A","Anthony Rizzo","CHC","1ST BASE","1B","1B",160,586,94,163,38,3,31,101,78,105,17,6,"0.278","0.387","0.512",0.899,5285714
 "Ross, T","Tyson Ross","SD","STARTING PITCHER","P","P",32,56,6,14,1,1,1,6,2,19,0,0,"0.25","0.283","0.357",0.64,5250000
 "Smith, J","Joe Smith","LAA","RELIEF PITCHER","P","P",4,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,5250000
-"Capuano, C","Chris Capuano","NYY","RELIEF PITCHER","P","P",2,1,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,5000000
-"Casilla, S","Santiago Casilla","SF","RELIEF PITCHER","P","P",64,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,5000000
-"Davis, R","Rajai Davis","DET","CENTER FIELD","CF","CF",112,341,55,88,16,11,8,30,22,76,18,8,"0.258","0.306","0.44",0.746,5000000
-"Drew, S","Stephen Drew","NYY","2ND BASE","2B","2B",131,383,43,77,16,1,17,44,37,71,0,2,"0.201","0.271","0.381",0.652,5000000
-"Escobar, Y","Yunel Escobar","WSH","3RD BASE","3B","3B",139,535,75,168,25,1,9,56,45,70,2,2,"0.314","0.375","0.415",0.79,5000000
-"Harang, A","Aaron Harang","PHI","STARTING PITCHER","P","P",28,48,4,8,1,0,0,0,1,18,0,0,"0.167","0.184","0.188",0.371,5000000
-"Navarro, D","Dioner Navarro","TOR","CATCHER","C","C",54,171,17,42,7,0,5,20,17,29,0,0,"0.246","0.307","0.374",0.682,5000000
-"Ziegler, B","Brad Ziegler","ARI","RELIEF PITCHER","P","P",63,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,5000000
+"Capuano, C","Chris Capuano","NYY","RELIEF PITCHER","P","P",2,1,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,5e+06
+"Casilla, S","Santiago Casilla","SF","RELIEF PITCHER","P","P",64,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,5e+06
+"Davis, R","Rajai Davis","DET","CENTER FIELD","CF","CF",112,341,55,88,16,11,8,30,22,76,18,8,"0.258","0.306","0.44",0.746,5e+06
+"Drew, S","Stephen Drew","NYY","2ND BASE","2B","2B",131,383,43,77,16,1,17,44,37,71,0,2,"0.201","0.271","0.381",0.652,5e+06
+"Escobar, Y","Yunel Escobar","WSH","3RD BASE","3B","3B",139,535,75,168,25,1,9,56,45,70,2,2,"0.314","0.375","0.415",0.79,5e+06
+"Harang, A","Aaron Harang","PHI","STARTING PITCHER","P","P",28,48,4,8,1,0,0,0,1,18,0,0,"0.167","0.184","0.188",0.371,5e+06
+"Navarro, D","Dioner Navarro","TOR","CATCHER","C","C",54,171,17,42,7,0,5,20,17,29,0,0,"0.246","0.307","0.374",0.682,5e+06
+"Ziegler, B","Brad Ziegler","ARI","RELIEF PITCHER","P","P",63,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,5e+06
 "Harrison, M","Matt Harrison","PHI","STARTING PITCHER","P","P",1,2,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,4830601
 "Plouffe, T","Trevor Plouffe","MIN","3RD BASE","3B","3B",152,573,74,140,35,4,22,86,50,124,2,1,"0.244","0.307","0.435",0.742,4800000
 "Swisher, N","Nick Swisher","ATL","OUTFIELDERS",NA,"LF",76,219,14,43,9,0,6,25,35,54,0,0,"0.196","0.312","0.32",0.631,4754098
@@ -209,14 +209,14 @@
 "Jay, J","Jon Jay","STL","CENTER FIELD","CF","CF",79,210,25,44,5,1,1,10,19,36,0,2,"0.21","0.306","0.257",0.563,4125000
 "Reddick, J","Josh Reddick","OAK","RIGHT FIELD","RF","RF",149,526,67,143,25,4,20,77,49,65,10,2,"0.272","0.333","0.449",0.781,4100000
 "Cashner, A","Andrew Cashner","SD","STARTING PITCHER","P","P",37,60,2,5,0,0,0,1,1,24,0,0,"0.083","0.098","0.083",0.182,4050000
-"Alvarez, H","Henderson Alvarez","MIA","STARTING PITCHER","P","P",4,6,1,2,1,0,0,1,0,1,0,0,"0.333","0.333","0.5",0.833,4000000
-"Aoki, N","Norichika Aoki","SF","LEFT FIELD","LF","LF",93,355,42,102,12,3,5,26,30,25,14,5,"0.287","0.353","0.38",0.733,4000000
-"Castro, J","Jason Castro","HOU","CATCHER","C","C",104,337,38,71,19,0,11,31,33,115,0,0,"0.211","0.283","0.365",0.648,4000000
-"Hochevar, L","Luke Hochevar","KC","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,4000000
-"Lewis, C","Colby Lewis","TEX","STARTING PITCHER","P","P",1,2,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,4000000
-"Lopez, J","Javier Lopez","SF","RELIEF PITCHER","P","P",71,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,4000000
-"Vogelsong, R","Ryan Vogelsong","SF","STARTING PITCHER","P","P",30,36,3,5,1,0,1,2,1,13,0,0,"0.139","0.162","0.25",0.412,4000000
-"Wada, T","Tsuyoshi Wada","CHC","STARTING PITCHER","P","P",7,8,1,0,0,0,0,0,1,5,0,0,"0","0.111","0",0.111,4000000
+"Alvarez, H","Henderson Alvarez","MIA","STARTING PITCHER","P","P",4,6,1,2,1,0,0,1,0,1,0,0,"0.333","0.333","0.5",0.833,4e+06
+"Aoki, N","Norichika Aoki","SF","LEFT FIELD","LF","LF",93,355,42,102,12,3,5,26,30,25,14,5,"0.287","0.353","0.38",0.733,4e+06
+"Castro, J","Jason Castro","HOU","CATCHER","C","C",104,337,38,71,19,0,11,31,33,115,0,0,"0.211","0.283","0.365",0.648,4e+06
+"Hochevar, L","Luke Hochevar","KC","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,4e+06
+"Lewis, C","Colby Lewis","TEX","STARTING PITCHER","P","P",1,2,0,0,0,0,0,0,0,2,0,0,"0","0","0",0,4e+06
+"Lopez, J","Javier Lopez","SF","RELIEF PITCHER","P","P",71,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,4e+06
+"Vogelsong, R","Ryan Vogelsong","SF","STARTING PITCHER","P","P",30,36,3,5,1,0,1,2,1,13,0,0,"0.139","0.162","0.25",0.412,4e+06
+"Wada, T","Tsuyoshi Wada","CHC","STARTING PITCHER","P","P",7,8,1,0,0,0,0,0,1,5,0,0,"0","0.111","0",0.111,4e+06
 "Estrada, M","Marco Estrada","TOR","STARTING PITCHER","P","P",2,6,0,2,0,0,0,0,0,2,0,0,"0.333","0.333","0.333",0.667,3900000
 "Cueto, J","Johnny Cueto","KC","STARTING PITCHER","P","P",17,37,1,6,0,0,0,0,1,10,0,0,"0.162","0.184","0.162",0.346,3879781
 "Mujica, E","Edward Mujica","OAK","RELIEF PITCHER","P","P",4,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,3841530
@@ -258,11 +258,11 @@
 "Jennings, D","Desmond Jennings","TB","LEFT FIELD","LF","LF",28,97,9,26,2,1,1,7,8,17,5,3,"0.268","0.324","0.34",0.664,3100000
 "Moore, M","Matt Moore","TB","STARTING PITCHER","P","P",1,1,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,3100000
 "Harrison, J","Josh Harrison","PIT","2ND BASE","2B","2B",114,418,57,120,29,1,4,28,19,71,10,8,"0.287","0.327","0.39",0.717,3050000
-"Choate, R","Randy Choate","STL","RELIEF PITCHER","P","P",66,0,0,0,0,0,0,0,1,0,0,0,NA,"1",NA,1,3000000
-"Martinez, J","J.D. Martinez","DET","RIGHT FIELD","RF","RF",158,596,93,168,33,2,38,102,53,178,3,2,"0.282","0.344","0.535",0.879,3000000
-"Qualls, C","Chad Qualls","HOU","RELIEF PITCHER","P","P",4,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,3000000
-"Ramirez, A","Aramis Ramirez","PIT","3RD BASE","3B","3B",137,475,43,117,31,1,17,75,31,68,1,0,"0.246","0.297","0.423",0.72,3000000
-"Simmons, A","Andrelton Simmons","ATL","SHORTSTOP","SS","SS",147,535,60,142,23,2,4,44,39,48,5,3,"0.265","0.321","0.338",0.66,3000000
+"Choate, R","Randy Choate","STL","RELIEF PITCHER","P","P",66,0,0,0,0,0,0,0,1,0,0,0,NA,"1",NA,1,3e+06
+"Martinez, J","J.D. Martinez","DET","RIGHT FIELD","RF","RF",158,596,93,168,33,2,38,102,53,178,3,2,"0.282","0.344","0.535",0.879,3e+06
+"Qualls, C","Chad Qualls","HOU","RELIEF PITCHER","P","P",4,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,3e+06
+"Ramirez, A","Aramis Ramirez","PIT","3RD BASE","3B","3B",137,475,43,117,31,1,17,75,31,68,1,0,"0.246","0.297","0.423",0.72,3e+06
+"Simmons, A","Andrelton Simmons","ATL","SHORTSTOP","SS","SS",147,535,60,142,23,2,4,44,39,48,5,3,"0.265","0.321","0.338",0.66,3e+06
 "Moreland, M","Mitch Moreland","TEX","1ST BASE","1B","1B",132,471,51,131,27,0,23,85,32,112,1,0,"0.278","0.33","0.482",0.812,2950000
 "Gomez, C","Carlos Gomez","HOU","CENTER FIELD","CF","CF",115,435,61,111,29,1,12,56,31,101,17,9,"0.255","0.314","0.409",0.724,2928961
 "Morse, M","Mike Morse","PIT","LEFT FIELD","LF","1B",98,229,14,53,7,1,5,19,23,76,0,0,"0.231","0.313","0.336",0.649,2928961
@@ -325,14 +325,14 @@
 "Petit, Y","Yusmeiro Petit","SF","RELIEF PITCHER","P","P",40,9,1,0,0,0,0,0,0,3,0,0,"0","0","0",0,2100000
 "Pineda, M","Michael Pineda","NYY","STARTING PITCHER","P","P",1,2,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,2100000
 "Dozier, B","Brian Dozier","MIN","2ND BASE","2B","2B",157,628,101,148,39,4,28,77,61,148,12,4,"0.236","0.307","0.444",0.751,2025000
-"Breslow, C","Craig Breslow","BOS","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,2000000
-"Gyorko, J","Jedd Gyorko","SD","SHORTSTOP","SS","2B",128,421,34,104,15,0,16,57,27,107,0,1,"0.247","0.297","0.397",0.694,2000000
-"Hamilton, J","Josh Hamilton","TEX","LEFT FIELD","LF","LF",50,170,22,43,8,0,8,25,10,52,0,0,"0.253","0.291","0.441",0.732,2000000
-"Hernandez, D","David Hernandez","ARI","RELIEF PITCHER","P","P",37,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,2000000
-"Medlen, K","Kris Medlen","KC","STARTING PITCHER","P","P",2,0,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,2000000
-"Reynolds, M","Mark Reynolds","STL","3RD BASE","3B","1B",140,382,35,88,21,2,13,48,44,121,2,3,"0.23","0.315","0.398",0.713,2000000
-"Ryan, B","Brendan Ryan","NYY","1ST BASE","1B","3B",47,96,10,22,6,2,0,8,5,29,0,0,"0.229","0.275","0.333",0.608,2000000
-"Villanueva, C","Carlos Villanueva","STL","RELIEF PITCHER","P","P",32,8,0,0,0,0,0,0,0,5,0,0,"0","0","0",0,2000000
+"Breslow, C","Craig Breslow","BOS","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,2e+06
+"Gyorko, J","Jedd Gyorko","SD","SHORTSTOP","SS","2B",128,421,34,104,15,0,16,57,27,107,0,1,"0.247","0.297","0.397",0.694,2e+06
+"Hamilton, J","Josh Hamilton","TEX","LEFT FIELD","LF","LF",50,170,22,43,8,0,8,25,10,52,0,0,"0.253","0.291","0.441",0.732,2e+06
+"Hernandez, D","David Hernandez","ARI","RELIEF PITCHER","P","P",37,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,2e+06
+"Medlen, K","Kris Medlen","KC","STARTING PITCHER","P","P",2,0,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,2e+06
+"Reynolds, M","Mark Reynolds","STL","3RD BASE","3B","1B",140,382,35,88,21,2,13,48,44,121,2,3,"0.23","0.315","0.398",0.713,2e+06
+"Ryan, B","Brendan Ryan","NYY","1ST BASE","1B","3B",47,96,10,22,6,2,0,8,5,29,0,0,"0.229","0.275","0.333",0.608,2e+06
+"Villanueva, C","Carlos Villanueva","STL","RELIEF PITCHER","P","P",32,8,0,0,0,0,0,0,0,5,0,0,"0","0","0",0,2e+06
 "Bauer, T","Trevor Bauer","CLE","STARTING PITCHER","P","P",3,6,0,1,0,0,0,0,1,1,0,0,"0.167","0.286","0.167",0.452,1940000
 "Hechavarria, A","Adeiny Hechavarria","MIA","SHORTSTOP","SS","SS",130,470,54,132,17,6,5,48,23,78,7,2,"0.281","0.315","0.374",0.689,1925000
 "Lawrie, B","Brett Lawrie","OAK","2ND BASE","2B","3B",149,562,64,146,29,3,16,60,28,144,5,2,"0.26","0.299","0.407",0.706,1925000
@@ -403,30 +403,30 @@
 "Gonzalez, M","Marwin Gonzalez","HOU","SHORTSTOP","SS","1B",120,344,44,96,18,1,12,34,16,74,4,5,"0.279","0.317","0.442",0.759,1062500
 "Nunez, E","Eduardo Nunez","MIN","SHORTSTOP","SS","SS",72,188,23,53,14,1,4,20,12,29,8,4,"0.282","0.327","0.431",0.758,1025000
 "Pennington, C","Cliff Pennington","TOR","SHORTSTOP","SS","SS",105,210,24,44,6,0,3,21,27,49,3,0,"0.21","0.298","0.281",0.578,1020081
-"Badenhop, B","Burke Badenhop","CIN","RELIEF PITCHER","P","P",63,1,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,1000000
-"Blanks, K","Kyle Blanks","TEX","LEFT FIELD","LF","1B",18,67,10,21,5,0,3,6,4,20,1,0,"0.313","0.352","0.522",0.875,1000000
-"Blanton, J","Joe Blanton","PIT","RELIEF PITCHER","P","P",22,4,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,1000000
-"Gomes, J","Jonny Gomes","KC","LEFT FIELD","LF","LF",95,225,29,48,9,0,7,26,31,81,1,1,"0.213","0.313","0.347",0.66,1000000
-"Gorzelanny, T","Tom Gorzelanny","DET","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,1000000
-"Jackson, A","Austin Jackson","CHC","CENTER FIELD","CF","CF",136,491,56,131,25,3,9,48,29,126,17,10,"0.267","0.311","0.385",0.696,1000000
-"Johnson, R","Reed Johnson","WSH","LEFT FIELD","LF","LF",17,22,0,5,1,0,0,3,0,6,0,0,"0.227","0.25","0.273",0.523,1000000
-"Smoak, J","Justin Smoak","TOR","1ST BASE","1B","1B",132,296,44,67,16,1,18,59,29,86,0,0,"0.226","0.299","0.47",0.768,1000000
+"Badenhop, B","Burke Badenhop","CIN","RELIEF PITCHER","P","P",63,1,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,1e+06
+"Blanks, K","Kyle Blanks","TEX","LEFT FIELD","LF","1B",18,67,10,21,5,0,3,6,4,20,1,0,"0.313","0.352","0.522",0.875,1e+06
+"Blanton, J","Joe Blanton","PIT","RELIEF PITCHER","P","P",22,4,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,1e+06
+"Gomes, J","Jonny Gomes","KC","LEFT FIELD","LF","LF",95,225,29,48,9,0,7,26,31,81,1,1,"0.213","0.313","0.347",0.66,1e+06
+"Gorzelanny, T","Tom Gorzelanny","DET","RELIEF PITCHER","P","P",5,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,1e+06
+"Jackson, A","Austin Jackson","CHC","CENTER FIELD","CF","CF",136,491,56,131,25,3,9,48,29,126,17,10,"0.267","0.311","0.385",0.696,1e+06
+"Johnson, R","Reed Johnson","WSH","LEFT FIELD","LF","LF",17,22,0,5,1,0,0,3,0,6,0,0,"0.227","0.25","0.273",0.523,1e+06
+"Smoak, J","Justin Smoak","TOR","1ST BASE","1B","1B",132,296,44,67,16,1,18,59,29,86,0,0,"0.226","0.299","0.47",0.768,1e+06
 "Cowgill, C","Collin Cowgill","LAA","RIGHT FIELD","RF","LF",55,69,10,13,2,1,1,2,4,19,2,1,"0.188","0.233","0.29",0.523,995000
 "Cervelli, F","Francisco Cervelli","PIT","CATCHER","C","C",130,451,56,133,17,5,7,43,46,94,1,1,"0.295","0.37","0.401",0.771,987500
 "Corporan, C","Carlos Corporan","TEX","CATCHER","C","C",33,107,10,19,4,0,3,15,6,40,0,0,"0.178","0.244","0.299",0.543,975000
 "Ventura, Y","Yordano Ventura","KC","STARTING PITCHER","P","P",3,6,0,0,0,0,0,0,0,5,0,0,"0","0","0",0,950000
 "Reed, A","Addison Reed","NYM","RELIEF PITCHER","P","P",52,2,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,932377
 "Francoeur, J","Jeff Francoeur","PHI","LEFT FIELD","LF","RF",118,326,34,84,16,1,13,45,13,77,0,2,"0.258","0.286","0.433",0.718,925000
-"Herrera, J","Jonathan Herrera","CHC","SHORTSTOP","SS","2B",73,126,14,29,5,1,2,14,2,23,3,0,"0.23","0.242","0.333",0.576,900000
+"Herrera, J","Jonathan Herrera","CHC","SHORTSTOP","SS","2B",73,126,14,29,5,1,2,14,2,23,3,0,"0.23","0.242","0.333",0.576,9e+05
 "Rzepczynski, M","Marc Rzepczynski","SD","RELIEF PITCHER","P","P",31,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,877459
 "Blanco, A","Andres Blanco","PHI","SHORTSTOP","SS","2B",106,233,32,68,22,3,7,25,21,44,1,1,"0.292","0.36","0.502",0.863,850000
 "Madson, R","Ryan Madson","KC","RELIEF PITCHER","P","P",7,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,850000
 "Hawkins, L","LaTroy Hawkins","TOR","RELIEF PITCHER","P","P",23,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,848360
 "Maldonado, M","Martin Maldonado","MIL","CATCHER","C","C",79,229,19,48,7,0,4,22,23,65,0,1,"0.21","0.282","0.293",0.575,825000
 "Butera, D","Drew Butera","KC","CATCHER","C","C",55,107,9,21,3,0,1,5,6,26,0,1,"0.196","0.252","0.252",0.505,809426
-"Gomez, J","Jeanmar Gomez","PHI","RELIEF PITCHER","P","P",61,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,800000
-"Hudson, D","Daniel Hudson","ARI","RELIEF PITCHER","P","P",61,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,800000
-"Sanchez, H","Hector Sanchez","SF","CATCHER","C","C",28,56,5,10,4,0,1,5,2,14,0,0,"0.179","0.207","0.304",0.51,800000
+"Gomez, J","Jeanmar Gomez","PHI","RELIEF PITCHER","P","P",61,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,8e+05
+"Hudson, D","Daniel Hudson","ARI","RELIEF PITCHER","P","P",61,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,8e+05
+"Sanchez, H","Hector Sanchez","SF","CATCHER","C","C",28,56,5,10,4,0,1,5,2,14,0,0,"0.179","0.207","0.304",0.51,8e+05
 "Carpenter, D","David Carpenter","WSH","RELIEF PITCHER","P","P",10,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,792349
 "Doolittle, S","Sean Doolittle","OAK","RELIEF PITCHER","P","P",1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,780000
 "Perez, O","Oliver Perez","HOU","RELIEF PITCHER","P","P",46,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,778688
@@ -436,15 +436,15 @@
 "Bass, A","Anthony Bass","TEX","RELIEF PITCHER","P","P",3,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,725000
 "Carlyle, B","Buddy Carlyle","NYM","RELIEF PITCHER","P","P",11,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,725000
 "Cotts, N","Neal Cotts","MIN","RELIEF PITCHER","P","P",50,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,721311
-"Wilson, B","Bobby Wilson","TEX","CATCHER","C","C",56,132,8,25,5,0,1,14,11,39,0,1,"0.189","0.255","0.25",0.505,700000
+"Wilson, B","Bobby Wilson","TEX","CATCHER","C","C",56,132,8,25,5,0,1,14,11,39,0,1,"0.189","0.255","0.25",0.505,7e+05
 "Grandal, Y","Yasmani Grandal","LAD","CATCHER","C","C",115,355,43,83,12,0,16,47,65,92,0,1,"0.234","0.353","0.403",0.756,693000
 "Young, C","Chris Young","KC","RELIEF PITCHER","P","P",3,4,0,2,0,0,0,3,0,1,0,0,"0.5","0.5","0.5",1,675000
 "Fernandez, J","Jose Fernandez","MIA","STARTING PITCHER","P","P",10,18,2,3,1,0,1,2,0,4,0,0,"0.167","0.167","0.389",0.556,651000
 "Harvey, M","Matt Harvey","NYM","STARTING PITCHER","P","P",28,65,1,7,2,0,1,7,0,31,0,0,"0.108","0.108","0.185",0.292,614125
 "Nava, D","Daniel Nava","TB","LEFT FIELD","LF","RF",60,139,13,27,4,0,1,10,20,36,1,0,"0.194","0.315","0.245",0.56,606557
 "Kelly, J","Joe Kelly","BOS","RELIEF PITCHER","P","P",2,5,0,1,0,0,0,1,0,2,0,0,"0.2","0.2","0.2",0.4,603000
-"Beimel, J","Joe Beimel","SEA","RELIEF PITCHER","P","P",3,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,600000
-"Reynolds, M","Matt Reynolds","ARI","RELIEF PITCHER","P","P",18,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,600000
+"Beimel, J","Joe Beimel","SEA","RELIEF PITCHER","P","P",3,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,6e+05
+"Reynolds, M","Matt Reynolds","ARI","RELIEF PITCHER","P","P",18,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,6e+05
 "Johnson, K","Kelly Johnson","NYM","2ND BASE","2B","2B",111,310,38,82,11,0,14,47,23,81,2,1,"0.265","0.314","0.435",0.75,598360
 "Wieland, J","Joe Wieland","LAD","STARTING PITCHER","P","P",1,1,0,0,0,0,0,0,0,1,0,0,"0","0","0",0,590000
 "Johnson, J","Jim Johnson","LAD","RELIEF PITCHER","P","P",64,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,585792
@@ -1038,7 +1038,7 @@
 "Wright, M","Mike Wright","BAL","RELIEF PITCHER","P","P",2,2,0,1,0,0,0,0,0,1,0,0,"0.5","0.5","0.5",1,507500
 "Maurer, B","Brandon Maurer","SD","RELIEF PITCHER","P","P",47,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,504819
 "Roark, T","Tanner Roark","WSH","STARTING PITCHER","P","P",37,27,1,5,2,0,0,0,0,9,0,0,"0.185","0.185","0.259",0.444,500660
-"Campos, L","Leonel Campos","SD","RELIEF PITCHER","P","P",1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,500000
+"Campos, L","Leonel Campos","SD","RELIEF PITCHER","P","P",1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,5e+05
 "Pressly, R","Ryan Pressly","MIN","RELIEF PITCHER","P","P",6,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,0,436885
 "Wright, S","Steven Wright","BOS","STARTING PITCHER","P","P",2,1,0,0,0,0,0,0,0,0,0,0,"0","0","0",0,357071
 "Moscot, J","Jon Moscot","CIN","STARTING PITCHER","P","P",2,4,0,1,0,0,0,0,0,2,0,0,"0.25","0.25","0.25",0.5,338333
