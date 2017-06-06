@@ -2,7 +2,7 @@ library(readr)
 library(dplyr)
 library(randomForest)
 
-rank_stage = 20
+rank_stage = 500
 
 ############################################################
 # load data
