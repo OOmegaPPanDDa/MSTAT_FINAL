@@ -2,6 +2,7 @@ library(readr)
 library(dplyr)
 library(randomForest)
 library(ggplot2)
+options(scipen=999)
 
 rank_stage = 500
 year_considered = c(2012,2013,2014,2015,2016)
@@ -122,7 +123,8 @@ print(rank_bar)
 
 data_x = bdata[,c("G", "AB", "R", "H" , "TwoB", "ThreeB", "HR", 
              "RBI", "BB", "SO", "SB", "CS", "AVG", "OBP", "SLG",                 
-             "OPS", "Salary_rank")]
+             "OPS","Salary")]
+
 
 data_y = bdata[,c("Trend")]
 data_y = as.factor(data_y)
@@ -145,8 +147,8 @@ valid_y = data_y[-train_ind]
 
 
 
-tree_nums = c(200,400,500,600,800,1000,1200,1500)
-ms = seq(from = 2, to = ncol(data_x), by = 2)
+tree_nums = c(500,600,800)
+ms = seq(from = 2, to = ncol(data_x), by = 4)
 
 best_tree_num = 0
 best_m = 0
