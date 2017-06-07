@@ -4,7 +4,7 @@ library(randomForest)
 library(ggplot2)
 options(scipen=999)
 
-rank_stage = 500
+rank_stage = 100
 year_considered = c(2012,2013,2014,2015,2016)
 
 year_data_list = list()
@@ -36,6 +36,7 @@ for (the_year in year_considered){
   
   
   the_data <- the_data[,-which(names(the_data) %in% c('Team.y'))]
+  names(the_data)[3] = 'Team'
   
   
   # remove duplicated
@@ -55,7 +56,7 @@ for (the_year in year_considered){
   
   
   # scale data
-  the_data[8:23] = scale(the_data[8:23])
+  the_data[seq(from=8,to=ncol(the_data)-4)] = scale(the_data[seq(from=8,to=ncol(the_data)-4)])
   
   year_data_list[[year_data_list_index]] = the_data
   year_data_list_index = year_data_list_index + 1
@@ -79,8 +80,8 @@ bdata$Trend[bdata$Trend <= 0] = 'hold&down'
 bdata[is.na(bdata)] <- -1
 
 # position dummy coding 
-pos_dummy = as.data.frame(model.matrix(~ PosTwo - 1, data = bdata))
-names(pos_dummy) = sapply(names(pos_dummy), function(x) paste0('pos_',substr(x,7,8)))
+pos_dummy = as.data.frame(model.matrix(~ Pos2 - 1, data = bdata))
+names(pos_dummy) = sapply(names(pos_dummy), function(x) paste0('pos_',substr(x,5,6)))
 bdata = cbind(cbind(bdata[,c(1,2,3,4,5,6,7)], pos_dummy), bdata[,seq(from = 8, to = ncol(bdata))])
 
 # Data select
@@ -100,7 +101,7 @@ bdata_rank_group <- bdata %>%
 bdata_rank_group$Salary_to_predict_rank <- as.factor(bdata_rank_group$Salary_to_predict_rank)
 
 
-View(bdata_rank_group)
+# View(bdata_rank_group)
 
 rank_bar <- ggplot(bdata_rank_group, aes(x=Salary_to_predict_rank, y=mean_Salary_to_predict)) +
   geom_bar(stat="identity", fill = 'deepskyblue') +
@@ -110,20 +111,7 @@ rank_bar <- ggplot(bdata_rank_group, aes(x=Salary_to_predict_rank, y=mean_Salary
 
 print(rank_bar)
 
-# "year_record"            "Player_Full_Name"       "Team"                   "Player"                
-# "PosOne_Detailed"        "PosOne"                 "PosTwo"                 "pos_1B"                
-# "pos_2B"                 "pos_3B"                 "pos_C"                  "pos_CF"                
-# "pos_DH"                 "pos_LF"                 "pos_P"                  "pos_RF"                
-# "pos_SS"                 "G"                      "AB"                     "R"                     
-# "H"                      "TwoB"                   "ThreeB"                 "HR"                    
-# "RBI"                    "BB"                     "SO"                     "SB"                    
-# "CS"                     "AVG"                    "OBP"                    "SLG"                   
-# "OPS"                    "Salary"                 "Salary_to_predict"      "Salary_rank"           
-# "Salary_to_predict_rank" "Trend"
-
-data_x = bdata[,c("G", "AB", "R", "H" , "TwoB", "ThreeB", "HR", 
-             "RBI", "BB", "SO", "SB", "CS", "AVG", "OBP", "SLG",                 
-             "OPS","Salary")]
+data_x = bdata[,seq(from=18,to=ncol(bdata)-4)]
 
 
 data_y = bdata[,c("Trend")]
@@ -146,53 +134,55 @@ train_y = data_y[train_ind]
 valid_y = data_y[-train_ind]
 
 
+# 
+# tree_nums = c(500,600,800)
+# ms = seq(from = 2, to = ncol(data_x), by = 4)
+# 
+# best_tree_num = 0
+# best_m = 0
+# f1_all = c()
+# 
+# for (tree_num in tree_nums){
+#   for (m in ms){
+#     brf = randomForest(x = train_x,
+#                        y = train_y,
+#                        ntree = tree_num,
+#                        mtry = m,
+#                        xtest = valid_x,
+#                        ytest = valid_y)
+#     print(brf)
+# 
+#     conf = brf$test$confusion
+# 
+#     # View(conf)
+#     tp = conf[2,2]
+#     fp = conf[1,2]
+#     tn = conf[1,1]
+#     fn = conf[2,1]
+# 
+#     precision = tp / ( tp + fp )
+#     recall = tp / ( tp + fn )
+# 
+#     f1score = 2*precision*recall/(precision+recall)
+#     print(f1score)
+# 
+#     f1_all = c(f1_all, f1score)
+# 
+#     if(which.max(f1_all) == length(f1_all)){
+#       best_tree_num = tree_num
+#       best_m = m
+#     }
+# 
+#   }
+# }
 
-tree_nums = c(500,600,800)
-ms = seq(from = 2, to = ncol(data_x), by = 4)
 
-best_tree_num = 0
-best_m = 0
-f1_all = c()
-
-for (tree_num in tree_nums){
-  for (m in ms){
-    brf = randomForest(x = train_x,
-                       y = train_y,
-                       ntree = tree_num,
-                       mtry = m,
-                       xtest = valid_x,
-                       ytest = valid_y)
-    print(brf)
-
-    conf = brf$test$confusion
-
-    # View(conf)
-    tp = conf[2,2]
-    fp = conf[1,2]
-    tn = conf[1,1]
-    fn = conf[2,1]
-
-    precision = tp / ( tp + fp )
-    recall = tp / ( tp + fn )
-
-    f1score = 2*precision*recall/(precision+recall)
-    print(f1score)
-
-    f1_all = c(f1_all, f1score)
-
-    if(which.max(f1_all) == length(f1_all)){
-      best_tree_num = tree_num
-      best_m = m
-    }
-
-  }
-}
 
 
 brf = randomForest(x = train_x,
                    y = train_y,
-                   ntree = best_tree_num,
-                   mtry = best_m,
+                   # ntree = best_tree_num,
+                   # mtry = best_m,
                    xtest = valid_x,
                    ytest = valid_y)
 print(brf)

@@ -62,12 +62,16 @@ pos_transfer <- function(x){
 
 
 # load data
-year = 2017
+year = 2011
 salary_path = paste0('./salary_data/salary_', year, '_valid.csv')
-data_path = paste0('./mlb_data/data_', year, '_valid.csv')
+hitting_path = paste0('./hitting_data/data_', year, '_hitting_valid.csv')
+fielding_path = paste0('./fielding_data/data_', year, '_fielding_valid.csv')
+pitching_path = paste0('./pitching_data/data_', year, '_pitching_valid.csv')
 
 salary_data = read_csv(salary_path)
-mlb_data = read_csv(data_path)
+hitting_data = read_csv(hitting_path)
+fielding_data = read_csv(fielding_path)
+pitching_data = read_csv(pitching_path)
 
 
 # handle salary_data
@@ -96,40 +100,83 @@ salary_data <- salary_data %>%
   arrange(Player) %>%
   arrange(desc(Salary))
 
-# handle mlb_data
+# handle mlb data
+
+mlb_key_col = c('Player','Team')
+
+hitting_data <- hitting_data[,-which(names(hitting_data) %in% c('RK'))]
+fielding_data <- fielding_data[,-which(names(fielding_data) %in% c('RK'))]
+pitching_data <- pitching_data[,-which(names(pitching_data) %in% c('RK'))]
+
+names(hitting_data) = paste('h_', names(hitting_data), sep='')
+names(fielding_data) = paste('f_', names(fielding_data), sep='')
+names(pitching_data) = paste('p_', names(pitching_data), sep='')
+
+names(hitting_data)[1:2] = mlb_key_col
+names(fielding_data)[1:2] = mlb_key_col
+names(pitching_data)[1:2] = mlb_key_col
+
+mlb_data <- merge(x = hitting_data, y = fielding_data, all=TRUE, by = mlb_key_col)
+mlb_data <- merge(x = mlb_data, y = pitching_data, all=TRUE, by = mlb_key_col)
+names(mlb_data) = gsub('¡¿','',names(mlb_data))
+
+mlb_pos = c()
+for (i in 1:nrow(mlb_data)){
+  if(!is.na(mlb_data[,c('h_Pos')][i])){
+    mlb_pos[i] = mlb_data[,c('h_Pos')][i]
+  }else{
+    mlb_pos[i] = mlb_data[,c('f_Pos')][i]
+  }
+}
+
+
+mlb_data <- mlb_data[,-which(names(mlb_data) %in% c('h_Pos','f_Pos'))]
+mlb_data$Pos = mlb_pos
+mlb_data = do.call("cbind", list(mlb_data[,c('Player','Team')],mlb_data[,c('Pos')],mlb_data[,-which(names(mlb_data) %in%c('Player','Team','Pos'))]))
+names(mlb_data)[3] = 'Pos2'
+
 
 mlb_data$Player = sapply(mlb_data$Player, function(x) substr(x, 2, nchar(x)))
 
 mlb_data <- mlb_data %>%
   arrange(Player)
 
-names(mlb_data)[3] = 'Pos2'
-names(mlb_data)[16] = 'AVG'
 
-
+ 
 
 # merge data
 
 data <- merge(x = mlb_data, y = salary_data, by = c('Player', 'Team'))
 
-data_name = names(data)[4:19]
+numeric_data_name = names(data)[seq(from=4, to=ncol(data)-4)]
 
 
 
 
-data = data[,c("Player", "Player_Full_Name", "Team", "Pos1_Detailed", "Pos1", "Pos2", data_name, "Salary")]
+data = data[,c("Player", "Player_Full_Name", "Team", "Pos1_Detailed", "Pos1", "Pos2", numeric_data_name, "Salary")]
 
 data[data=='.---'] = NA
+data[data=='-.--'] = NA
+data[data=='-'] = NA
+data[data=='*.**'] = NA
+
+
+
 
 data <- data %>%
   arrange(Player) %>%
   arrange(desc(Salary))
 
 
+
+
 salary_data_loss = setdiff(salary_data$Player_Full_Name, data$Player_Full_Name)
 # print(salary_data_loss)
 mlb_data_loss = setdiff(mlb_data$Player, data$Player)
 # print(mlb_data_loss)
+
+
+
 
 
 # handle duplicated
@@ -154,8 +201,8 @@ name_duplicated_data <- data %>%
   filter(Player_Full_Name %in% name_duplicated_data$Player_Full_Name) %>%
   arrange(Player)
 
-# data <- data %>%
-#   filter(!(Player_Full_Name %in% name_duplicated_data$Player_Full_Name))
+# # data <- data %>%
+# #   filter(!(Player_Full_Name %in% name_duplicated_data$Player_Full_Name))
 
 
 
@@ -175,9 +222,6 @@ cat('data_collect', nrow(data), '\n')
 # View(data)
 
 
-names(data) = gsub('1','One',names(data))
-names(data) = gsub('2','Two',names(data))
-names(data) = gsub('3','Three',names(data))
 
 write.csv(data, file = paste0('./merge_data/merge_data_',year,'.csv'), row.names = FALSE)
 
