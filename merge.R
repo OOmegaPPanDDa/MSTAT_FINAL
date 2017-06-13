@@ -2,6 +2,19 @@ library(readr)
 library(dplyr)
 
 
+# load data
+year = 2015
+salary_path = paste0('./salary_data/salary_', year, '_valid.csv')
+hitting_path = paste0('./hitting_data/data_', year, '_hitting_valid.csv')
+fielding_path = paste0('./fielding_data/data_', year, '_fielding_valid.csv')
+pitching_path = paste0('./pitching_data/data_', year, '_pitching_valid.csv')
+
+salary_data = read_csv(salary_path)
+hitting_data = read_csv(hitting_path)
+fielding_data = read_csv(fielding_path)
+pitching_data = read_csv(pitching_path)
+
+
 pos_transfer <- function(x){
   if(grepl('PITCHERS',x) || grepl('STARTING PITCHER',x) || grepl('RELIEF PITCHER',x) || grepl('CLOSER',x)){
     return('P')
@@ -61,17 +74,6 @@ pos_transfer <- function(x){
 
 
 
-# load data
-year = 2011
-salary_path = paste0('./salary_data/salary_', year, '_valid.csv')
-hitting_path = paste0('./hitting_data/data_', year, '_hitting_valid.csv')
-fielding_path = paste0('./fielding_data/data_', year, '_fielding_valid.csv')
-pitching_path = paste0('./pitching_data/data_', year, '_pitching_valid.csv')
-
-salary_data = read_csv(salary_path)
-hitting_data = read_csv(hitting_path)
-fielding_data = read_csv(fielding_path)
-pitching_data = read_csv(pitching_path)
 
 
 # handle salary_data
@@ -104,7 +106,10 @@ salary_data <- salary_data %>%
 
 mlb_key_col = c('Player','Team')
 
-hitting_data <- hitting_data[,-which(names(hitting_data) %in% c('RK'))]
+if(year==2011){
+  hitting_data <- hitting_data[,-which(names(hitting_data) %in% c('RK'))]
+}
+
 fielding_data <- fielding_data[,-which(names(fielding_data) %in% c('RK'))]
 pitching_data <- pitching_data[,-which(names(pitching_data) %in% c('RK'))]
 
